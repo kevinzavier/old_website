@@ -1,0 +1,158 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav bigger">
+      <li class="active"><a href="#title">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class=jumbotron>
+  <p class="text-center" id="title"><img src="http://i.imgur.com/BXKh4sV.jpg" alt="Selfie" class="smaller-image img-thumbnail" align="left"> Hi. My name is Kevin and I'm a Android and web developer studying at UC San Diego. I enjoy working on interesting and challenging projects, and
+    am currently working on two Android apps. I want to learn more and get more active on harder projects. As of now I am in the pursuit of learning some more Javascript, and then the MEAN Stack. </p>
+  <hr class=star-bright></hr>
+</div>
+<div class=jumbotron style="background:#C28CAE">
+  <p class="text-center" id="projects"><b>Projects</b></br>
+    <hr class=star-bright></hr>
+    <p>These are some of the things I have completed and currently working on...</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <image class="img-rounded" src="http://i.imgur.com/fJA2NHf.png">
+              <div class="caption text-center">This is a ball game when the player can drag a ball and shoot it at a target. The higher the score faster the ball moves around. Check it out in the play store!</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <image class="img-rounded" src="http://i.imgur.com/FARlU5J.png">
+              <div class="caption text-center">This is a website I created that describes one of my role models</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <image class="img-rounded" src="http://i.imgur.com/WWIeWEz.jpg">
+              <div class="caption text-center">I'm working on implementing a automated steering capability for our submarine using a gryoscope and accelerometer (with a Kalman filter)</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <image class="img-rounded" src="http://i.imgur.com/dICEGzE.jpg">
+              <div class="caption text-center">I created Saylii Travels by myself. Please check it out!</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <image class="img-rounded" src="http://i.imgur.com/WUr120X.png">
+              <div class="caption text-center">It's an app that allows users to communicate with friends by placing markers on the map that friends can see. They can also chat and contacts</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class=jumbotron style="background:#99C24D">
+  <p class="text-center" id="contact"><b>Contact Info</b></br>
+  </p>
+  <hr class=star-bright></hr>
+  <p> Feel free to contact me!</p>
+  <div class="row">
+    <div class="col-xs-2">
+      <a href="https://www.facebook.com/kevin.zavier.7" target="blank"><i class="fa fa-facebook-square fa-4x"></i></a>
+    </div>
+    <div class="col-xs-2">
+      <a href="https://github.com/kevinzavier" target="blank"><i class="fa fa-github fa-4x"></i></a>
+    </div>
+    <div class="col-xs-2">
+      <a href="https://twitter.com/kevinzavier2" target="blank"><i class="fa fa-twitter fa-4x"></i></a>
+    </div>
+    <div class="col-xs-2">
+      <a href="https://plus.google.com/104214410881643075023" target="blank"> <i class="fa fa-google-plus-official fa-4x"></i></a>
+    </div>
+  </div>
+
+  <form action="/submit-cat-photo" id="email">
+    <label><input type="radio" name="indoor-outdoor"> Student</label>
+    <label><input type="radio" name="indoor-outdoor"> Recruiter</label>
+    <label><input type="radio" name="indoor-outdoor"> Quincy</label>
+    <label><input type="radio" name="indoor-outdoor"> Other</label>
+    <div class="row">
+      <div class="col-xs-12">
+        <input type="text" placeholder="your email address" required>
+      </div>
+      <div class="col-xs-12">
+        <input type="text" placeholder="your message" required>
+      </div>
+  </form>
+  </div>
+
+</div>
+</div>
+
+
+<style>
+body{
+  background-color: #404E5C;
+  font-family: "Open Sans", "sans-serif";
+}
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+    box-shadow: 0px 0px 10px 0px #000;
+   border-radius: 0 !important;
+}
+.bigger{
+  font-size:18px;
+}
+.smaller-image{
+   width:250px; /* you can use % */
+    height: auto;
+  text-align:center;
+  display:block;
+   
+}
+
+.jumbotron{
+  background-color:#B7C3F3;
+  margin-right: 160px;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-left: 160px;
+  margin-top: -20px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+#title{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+#projects{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+#email{
+  padding-top:30px;
+}
+#contact{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+
+</style>
+<script src="https://use.fontawesome.com/0cb9c1b63d.js"></script>
+<script>
+document.document.getElementById("2nd").style.background = "white";
+<
