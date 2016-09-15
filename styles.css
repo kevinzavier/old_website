@@ -6,7 +6,7 @@ html, body {
 }
 
 #hero-image {
-  height: 800px;
+  height: 900px;
   width: 100%;
   background-color: #444;
   background-image: url('images/realmountains.jpg');
@@ -34,6 +34,7 @@ html, body {
   color: #2f3f4f;
   padding-top: 10px;
 
+
 }
 
 #introduction h3{
@@ -43,13 +44,21 @@ html, body {
 }
 
 #intro_border{
-  position: absolute;
+  position: relative;
   text-align: center;
-  vertical-align: middle;
   border: 3px solid #2f3f4f;
   padding: 10px 25px;
-  display: inline-block;
   margin-top: 270px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 390px;
+  display:block
+}
+
+#scroll_down{
+      margin-top: 360px;
+      text-align: center;
+   
 }
 
 
@@ -62,6 +71,12 @@ html, body {
     padding: 10px 25px;
     display: inline-block;
     margin-top: 0px;
+}
+
+.center{
+  margin: auto;
+  width: auto;
+
 }
 
 
