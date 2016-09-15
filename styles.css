@@ -1,0 +1,52 @@
+
+
+body { 
+  /*background-color: #404E5C;
+  font-family: "Open Sans", "sans-serif";*/
+}
+
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+    box-shadow: 0px 0px 10px 0px #000;
+   border-radius: 0 !important;
+}
+.bigger{
+  font-size:18px;
+}
+.smaller-image{
+   width:250px; /* you can use % */
+    height: auto;
+  text-align:center;
+  display:block;
+   
+}
+
+.jumbotron{
+  background-color:#B7C3F3;
+  margin-right: 160px;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-left: 160px;
+  margin-top: -20px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+#title{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+#projects{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+#email{
+  padding-top:30px;
+}
+#contact{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
