@@ -1,11 +1,23 @@
 
 
-body { 
-  /*background-color: #404E5C;
-  font-family: "Open Sans", "sans-serif";*/
+html, body {
+  background-color: #cccccc;
+  font-family: "Montserrat", "sans-serif";
+}
+
+#hero-image {
+  height: 550px;
+  width: 100%;
+  background-color: #444;
+  background-image: url('../images/death_star_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 
+/*
 .navbar-default {
     background-color: #F8F8F8;
     border-color: #E7E7E7;
@@ -16,11 +28,11 @@ body {
   font-size:18px;
 }
 .smaller-image{
-   width:250px; /* you can use % */
+   width:250px;
     height: auto;
   text-align:center;
   display:block;
-   
+
 }
 
 .jumbotron{
@@ -50,3 +62,4 @@ body {
    font-weight: 300;
   font-size:26px;
 }
+*/
