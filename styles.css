@@ -1,12 +1,12 @@
 
 
 html, body {
-  background-color: #cccccc;
+  background-color: #000;
   font-family: "Montserrat", "sans-serif";
 }
 
 #hero-image {
-  height: 900px;
+  height: 900px; 
   width: 100%;
   background-color: #444;
   background-image: url('images/realmountains.jpg');
@@ -48,7 +48,7 @@ html, body {
   text-align: center;
   border: 3px solid #2f3f4f;
   padding: 10px 25px;
-  margin-top: 270px;
+  margin-top: 270px;  /*height from top */
   margin-left:auto;
   margin-right:auto;
   width: 390px;
@@ -56,27 +56,54 @@ html, body {
 }
 
 #scroll_down{
-      margin-top: 360px;
-      text-align: center;
-   
+  margin-top: 360px;
+  text-align: center;
+}
+
+#mission-image{
+  height: 300px;
+  width: 100%;
+  background-color: #FFF;
+  position: absolute;
+}
+
+#mission_header{
+  width: 170px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+
+#project_head-image{
+  height: 300px;
+  width: 100%;
+  background-color: #f2f2f2;
+   margin-top: 300px;
+  position: relative;
+}
+
+
+#project-image{
+  height: 600px;
+  width: 100%;
+  background-color: #344857;
+
 }
 
 
 .section_header {
-    text-transform: uppercase;
-    font-size: 1.15em;
-    letter-spacing: 0.5px;
-    color: #34495e;
-    border: 3px solid #34495e;
-    padding: 10px 25px;
-    display: inline-block;
-    margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 1.15em;
+  letter-spacing: 0.5px;
+  color: #34495e;
+  border: 3px solid #34495e;
+  padding: 10px 25px;
+  display: block;
 }
 
 .center{
   margin: auto;
-  width: auto;
-
+  width: 200px;
 }
 
 
