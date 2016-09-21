@@ -1,0 +1,162 @@
+
+
+html, body {
+  background-color: #000;
+  font-family: "Montserrat", "sans-serif";
+}
+
+#hero-image {
+  height: 900px; 
+  width: 100%;
+  background-color: #444;
+  background-image: url('images/realmountains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+  position: relative;
+}
+
+#hero-image::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+#introduction h1{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0px;
+  font-size: 3.7em;
+  color: #2f3f4f;
+  padding-top: 10px;
+
+
+}
+
+#introduction h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8em;
+  color: #2f3f4f;
+}
+
+#intro_border{
+  position: relative;
+  text-align: center;
+  border: 3px solid #2f3f4f;
+  padding: 10px 25px;
+  margin-top: 270px;  /*height from top */
+  margin-left:auto;
+  margin-right:auto;
+  width: 390px;
+  display:block
+}
+
+#scroll_down{
+  margin-top: 360px;
+  text-align: center;
+}
+
+#mission-image{
+  height: 300px;
+  width: 100%;
+  background-color: #FFF;
+  position: absolute;
+}
+
+#mission_header{
+  width: 170px;
+  margin-left: 240px;
+  margin-top: 80px;
+}
+
+
+#project_head-image{
+  height: 200px;
+  width: 100%;
+  background-color: #f2f2f2;
+   margin-top: 300px;
+  position: absolute;
+}
+
+#project_header{
+  margin-top: 30px;
+  width: 185px;
+  margin-left: 240px; 
+}
+
+
+#project-image{
+  height: 600px;
+    margin-top: 500px; /* 300 + 100 */
+  width: 100%;
+  background-color: #344857;
+
+}
+
+
+.section_header {
+  text-transform: uppercase;
+  font-size: 1.15em;
+  letter-spacing: 0.5px;
+  color: #34495e;
+  border: 3px solid #34495e;
+  padding: 10px 25px;
+  display: block;
+}
+
+.center{
+  margin: auto;
+  width: 200px;
+}
+
+
+/*
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+    box-shadow: 0px 0px 10px 0px #000;
+   border-radius: 0 !important;
+}
+.bigger{
+  font-size:18px;
+}
+.smaller-image{
+   width:250px;
+    height: auto;
+  text-align:center;
+  display:block;
+
+}
+
+.jumbotron{
+  background-color:#B7C3F3;
+  margin-right: 160px;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-left: 160px;
+  margin-top: -20px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+#title{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+#projects{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+#email{
+  padding-top:30px;
+}
+#contact{
+  font-family:"Helvetica Neue", "sans-serif";
+   font-weight: 300;
+  font-size:26px;
+}
+*/
